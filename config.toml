@@ -1,0 +1,29 @@
+languageCode = "en-us"
+title = "Christine Konicki"
+baseurl = "http://example.org/"
+theme = "dimension"
+
+[params]
+  title = "Christine Konicki"
+  description = '<!--[-->PhD Candidate at the University of Michigan-Ann Arbor<!--]--><br />
+                <!--[-->Game Theory * Strategic Reasoning * Machine Learning * Artificial Intellignece<!--]-->'
+
+[[params.social]]
+  medium = "linkedin"
+  icon = "linkedin"
+  link = "#"
+
+[[params.social]]
+  medium = "facebook"
+  icon = "facebook"
+  link = "#"
+
+[[params.social]]
+  medium = "instagram"
+  icon = "instagram"
+  link = "#"
+
+[[params.social]]
+  medium = "github"
+  icon = "github"
+  link = "#"
