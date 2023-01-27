@@ -6,7 +6,8 @@ theme = "dimension"
 [params]
   title = "Christine Konicki"
   description = '<!--[-->PhD Candidate at the University of Michigan-Ann Arbor<!--]--><br />
-                <!--[-->Game Theory * Strategic Reasoning * Machine Learning * Artificial Intellignece<!--]-->'
+                <!--[-->Game Theory * Strategic Reasoning * Machine Learning * Artificial Intelligence<!--]-->'
+  logo = ""
 
 [[params.social]]
   medium = "linkedin"
