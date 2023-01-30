@@ -48,6 +48,31 @@
 		-webkit-text-size-adjust: none;
 	}
 
+	papertitle {
+		font-family: "Source Sans Pro", sans-serif;
+		font-size: 12pt;
+		font-weight: 700;
+		color: #e996c8;
+	}
+
+/* Crochet Photos */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -154,7 +179,17 @@
 		margin: 0 0 2rem 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1 {
+		color: #ffffff;
+		font-weight: 800;
+		line-height: 1.5;
+		margin: 0 0 1rem 0;
+		text-transform: uppercase;
+		letter-spacing: 0.2rem;
+		text-shadow: 2px 2px 2px #000000;
+	}
+
+	h2, h3, h4, h5, h6 {
 		color: #ffffff;
 		font-weight: 600;
 		line-height: 1.5;
@@ -162,6 +197,15 @@
 		text-transform: uppercase;
 		letter-spacing: 0.2rem;
 	}
+
+/*	h1, h2, h3, h4, h5, h6 {
+		color: #ffffff;
+		font-weight: 600;
+		line-height: 1.5;
+		margin: 0 0 1rem 0;
+		text-transform: uppercase;
+		letter-spacing: 0.2rem;
+	}*/
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
@@ -1479,7 +1523,8 @@
 			position: relative;
 			width: 40rem;
 			max-width: 100%;
-			background-color: rgba(27, 31, 34, 0.85);
+			/*background-color: rgba(27, 31, 34, 0.85);*/
+			background-color: rgba(16, 9, 13, 0.7);
 			border-radius: 4px;
 			opacity: 0;
 		}
